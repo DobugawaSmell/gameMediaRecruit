@@ -300,6 +300,7 @@ a {
     }
 
     .msn-text2 {
+        width: 40vw;
         height: auto;
         margin-top: 20px;
         font-size: 17.58px;
@@ -307,19 +308,19 @@ a {
     }
 
     .msn-backImage {
-        position: absolute;
-        width: 90vw;
-        margin-top: -20%;
-        display: flex;
-        align-items: flex-end;
-        z-index: -1;
+        width: 30vw;
+        margin-top: -10%;
+        margin-left: auto;
+        margin-right: 0px;
+        z-index: -4;
     }
 
     .msn-backImage img {
         width: 30vw;
-        height: auto;
-        margin-left: 50vw;
-        border-radius: 10px;
+        height: 40vw;
+        border-radius: 0px;
+        object-fit: cover;
+        border-radius: 5px;
     }
 
     .vsn {
@@ -367,7 +368,7 @@ a {
     }
 
     .vsn-text2{
-        width: 580px;
+        width: 40vw;
         height: auto;
         margin-top: 20px;
         font-size: 17.58px;
